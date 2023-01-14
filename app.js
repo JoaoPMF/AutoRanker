@@ -2,7 +2,7 @@ const queryString = require("node:querystring");
 const axios = require("axios");
 const express = require('express');
 const session = require("express-session");
-const math = require('mathjs')
+const math = require('mathjs');
 require('dotenv').config();
 
 const app = express();
